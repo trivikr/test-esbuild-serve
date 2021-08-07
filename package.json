@@ -1,0 +1,23 @@
+{
+  "name": "test-esbuild-serve",
+  "version": "1.0.0",
+  "description": "Testing ESBuild serve API",
+  "main": "index.js",
+  "scripts": {
+    "serve:esbuild": "esbuild src/index.js --servedir=public --outdir=public --bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivikr/test-esbuild-serve.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trivikr/test-esbuild-serve/issues"
+  },
+  "homepage": "https://github.com/trivikr/test-esbuild-serve#readme",
+  "devDependencies": {
+    "esbuild": "0.12.19"
+  }
+}
